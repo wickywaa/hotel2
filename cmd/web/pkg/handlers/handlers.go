@@ -3,11 +3,12 @@ package handlers
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/tsawler/bookings-app/pkg/config"
-	"github.com/tsawler/bookings-app/pkg/models"
-	"github.com/tsawler/bookings-app/pkg/render"
 	"log"
 	"net/http"
+
+	"github.com/wickywaa/hotel2/pkg/config"
+	"github.com/wickywaa/hotel2/pkg/models"
+	"github.com/wickywaa/hotel2/pkg/render"
 )
 
 // Repo the repository used by the handlers

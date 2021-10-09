@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/alexedwards/scs/v2"
-	"github.com/tsawler/bookings-app/pkg/config"
-	"github.com/tsawler/bookings-app/pkg/handlers"
-	"github.com/tsawler/bookings-app/pkg/render"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/alexedwards/scs/v2"
+	"github.com/wickywaa/hotel2//pkg/render"
+	"github.com/wickywaa/hotel2/pkg/config"
+	"github.com/wickywaa/hotel2/pkg/handlers"
 )
 
 const portNumber = ":8080"

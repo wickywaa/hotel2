@@ -1,4 +1,4 @@
-module github.com/tsawler/bookings-app
+module github.com/wickywaa/hotel2
 
 go 1.15
 

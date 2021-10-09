@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/wickywaa/hotel2//pkg/render"
 	"github.com/wickywaa/hotel2/pkg/config"
 	"github.com/wickywaa/hotel2/pkg/handlers"
+	"github.com/wickywaa/hotel2/pkg/render"
 )
 
 const portNumber = ":8080"
